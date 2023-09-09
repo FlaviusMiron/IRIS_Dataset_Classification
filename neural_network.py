@@ -1,5 +1,5 @@
 """
-A multilayer perceptron neural network, used to learn the flower species of the IRIS database (link in the README file). Uses mini-batch 
+A multilayer perceptron neural network, used to learn the flower sub-species of the IRIS database (link in the README file). Uses mini-batch 
 gradient descent and backpropagation. It is made for the specific data format given by the "data_loader.py" data loader and has to be re-adapted for other uses.
 Prints testing accuracy and plots training cost and testing costs, from 10 to 10 epochs (can be modified at line 83).
 Uses sigmoid neurons on all layers.
