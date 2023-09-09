@@ -13,7 +13,7 @@ def format_data():
     """
     Change the format of the data into a more convenient form, meaning every example will form a list
     that contains 150 tuples of the form (features,label). "features" will be a (4,1) dimensional numpy array
-    and "label" a (3,1) containg the class, in the form of [1,0,0] for Iris-setosa, [0,1,0] for Iris-versicolor
+    and "label" a (3,1) dimensional numpy array containg the class, in the form of [1,0,0] for Iris-setosa, [0,1,0] for Iris-versicolor
     and [0,0,1] for Iris-virginica. In this way it is more convenient for training and testing.
     """
     file = open("iris.data","r")
