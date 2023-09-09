@@ -1,6 +1,7 @@
 """
 Script used to train the neural network. Showcases 2 model variants that can achieve 100%
 accuracy on the unseen test_data (given some luck on the starting parameters :) )
+Should be run with "Run current file in interactive window" to see the plots of the cost on training and test data.
 """
 import data_loader
 import neural_network
