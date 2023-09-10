@@ -60,7 +60,10 @@ def rescale_formatted_data():
     return rescale_formatted_data
 
 def get_data(division_ratio : float = 0.8, rescale : bool = True):
-    """Returns formatted and rescaled training and testing data. Parameter division_ratio has to be between 0.1 and 0.9."""
+    """
+    Returns formatted and rescaled training and testing data. Parameter division_ratio has to be between 0.1 and 0.9. and 
+    signifies the ratio by which the data set will be divided into training and testing data (0.8 reccomended).
+    """
     
     # Checking the input
     if not isinstance(division_ratio,float):
