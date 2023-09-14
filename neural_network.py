@@ -1,5 +1,5 @@
 """
-A multilayer perceptron neural network, used to learn the flower sub-species of the IRIS database (link in the README file). Uses mini-batch 
+A multilayer perceptron neural network, used to learn the flower species of the IRIS database (link in the README file). Uses mini-batch 
 gradient descent and backpropagation. It is made for the specific data format given by the "data_loader.py" data loader and has to be re-adapted for other uses.
 Prints testing accuracy and plots training cost and testing costs, from 10 to 10 epochs (can be modified at line 83).
 Uses sigmoid neurons on all layers.
@@ -83,7 +83,7 @@ class MLP:
             if epoch % 10 == 0: # Testing loop
                 if test_data:
                     predicted = self.__evaluate_model(test_data)
-                    print("Epoch {}: guessed {} out of {}".format(epoch,predicted,len_test_data))
+                    print("Epoch {}: guessed {} out of {} (neural-net)".format(epoch,predicted,len_test_data))
                     self.epoch_performances.append(predicted)
                     current_cost = 0
                     for feature, label in test_data:
@@ -99,11 +99,11 @@ class MLP:
 
         plt.figure()
         plt.plot(self.training_costs)
-        plt.title("Training cost")
+        plt.title("Training cost (neural network)")
 
         plt.figure()
         plt.plot(self.testing_costs)
-        plt.title("Testing cost")
+        plt.title("Testing cost (neural network)")
 
     def __back_propagate(self, image, target):
         """Returns the gradients of the parameters for a single training example."""
