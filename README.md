@@ -1,5 +1,5 @@
 # IRIS_Dataset_Classification
-Classification of the IRIS dataset with a neural network made from scratch.
+Classification of the IRIS dataset with a neural network and a soft-max logistic regression model made from scratch.
 The IRIS dataset can be downloaded from here: https://archive.ics.uci.edu/dataset/53/iris and it consists of 150 examples of 3 subspecies of the Iris flower. The goel is to predict what subspecie a new flower is based on:
 sepal length, sepal width, petal length and petal width. 
 
