@@ -6,7 +6,7 @@ sepal length, sepal width, petal length and petal width.
 The subspecies are: 
 Iris SetosaIris, Versicolour and Iris Virginica (more details on the link).
 
-The "train_model.py" is responsible with training the neural network while with the "data_loader.py" I indended to make the data set more suitable for the neural net (see the docstring).
+The "train_model.py" is responsible with training the models while with the "data_loader.py" I indended to make the data set more suitable for the models (see the docstring).
 Achieves 100% accuracy on unseen data.
 
 Required libraries are: numpy and matplotlib
