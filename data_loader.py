@@ -1,6 +1,6 @@
 """
 Data loader used to load the IRIS database, from the file "iris.data". It automatically re-fromats the data
-and it can also rescale it for better usage in the network.
+and it can also rescale it for better usage in the models.
 """
 
 import numpy as np
